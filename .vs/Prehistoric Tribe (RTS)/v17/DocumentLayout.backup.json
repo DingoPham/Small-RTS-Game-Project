@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|f:\\program files\\code\\game project\\unity - prehistoric tribe - rts\\prehistoric tribe (rts)\\assets\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|f:\\program files\\code\\game project\\unity - prehistoric tribe - rts\\prehistoric tribe (rts)\\assets\\controller\\selectionmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\controller\\selectionmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|f:\\program files\\code\\game project\\unity - prehistoric tribe - rts\\prehistoric tribe (rts)\\assets\\functions\\selectionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\functions\\selectionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|f:\\program files\\code\\game project\\unity - prehistoric tribe - rts\\prehistoric tribe (rts)\\assets\\functions\\formationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\functions\\formationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Unit.cs",
-              "DocumentMoniker": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Unit.cs",
-              "RelativeDocumentMoniker": "Assets\\Unit.cs",
-              "ToolTip": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Unit.cs",
-              "RelativeToolTip": "Assets\\Unit.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBcAAAAiAAAAAAAAAA==",
+              "Title": "SelectionManagerController.cs",
+              "DocumentMoniker": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Controller\\SelectionManagerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Controller\\SelectionManagerController.cs",
+              "ToolTip": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Controller\\SelectionManagerController.cs",
+              "RelativeToolTip": "Assets\\Controller\\SelectionManagerController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T03:32:35.012Z",
+              "WhenOpened": "2025-02-14T08:33:05.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SelectionHandler.cs",
+              "DocumentMoniker": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Functions\\SelectionHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Functions\\SelectionHandler.cs",
+              "ToolTip": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Functions\\SelectionHandler.cs",
+              "RelativeToolTip": "Assets\\Functions\\SelectionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:32:30.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormationHandler.cs",
+              "DocumentMoniker": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Functions\\FormationHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Functions\\FormationHandler.cs",
+              "ToolTip": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Functions\\FormationHandler.cs",
+              "RelativeToolTip": "Assets\\Functions\\FormationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:31:52.163Z",
               "EditorCaption": ""
             }
           ]
