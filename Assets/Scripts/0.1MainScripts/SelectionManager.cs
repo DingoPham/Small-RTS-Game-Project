@@ -22,7 +22,12 @@ public class SelectionManager : MonoBehaviour
         // Nếu nhấn chuột trái và đang có đơn vị được chọn, thì bỏ chọn
         if (Input.GetMouseButtonDown(0) && selectedUnits.Count > 0)
         {
-            selectedUnits.Clear();
+            RaycastHit2D hit = Physics2D.Raycast(cam.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+            if(hit.collider == null || !hit.collider.CompareTag("Unit"))
+            {
+                DeselectAllUnits();
+            }
+            
             return; // Thoát khỏi Update để tránh xử lý thêm
         }
 
@@ -53,14 +58,27 @@ public class SelectionManager : MonoBehaviour
             Vector3 target = cam.ScreenToWorldPoint(Input.mousePosition);
             target.z = 0;
 
-            float offsetX = 0;
-            foreach (Unit unit in selectedUnits)
+            float radius = 1.5f; // Bán kính tối đa của cụm đơn vị
+            int unitCount = selectedUnits.Count;
+            float angleStep = 360f / unitCount; // Chia đều góc để không quá xa nhau
+
+            for (int i = 0; i < unitCount; i++)
             {
-                Vector3 newTarget = target + new Vector3(offsetX, 0, 0);
-                unit.MoveTo(newTarget);
-                offsetX += 0.5f; // Giãn cách các đơn vị
+                // Tạo vị trí ngẫu nhiên trong bán kính
+                float angle = i * angleStep + Random.Range(-15f, 15f); // Có chút ngẫu nhiên để không quá đều
+                float randomRadius = Random.Range(0.3f, radius); // Giữ khoảng cách hợp lý
+
+                Vector3 offset = new Vector3(
+                    Mathf.Cos(angle * Mathf.Deg2Rad) * randomRadius,
+                    Mathf.Sin(angle * Mathf.Deg2Rad) * randomRadius,
+                    0
+                );
+
+                Vector3 newTarget = target + offset;
+                selectedUnits[i].MoveTo(newTarget);
             }
         }
+
     }
 
     void DrawSelectionBox()
@@ -85,10 +103,11 @@ public class SelectionManager : MonoBehaviour
 
     void SelectUnits()
     {
-        if (Vector2.Distance(startPos, endPos) > 10f) // Chỉ reset khi kéo chuột đủ xa
+        if (isSelecting) // Chỉ bỏ chọn khi thực sự kéo bôi đen lần mới
         {
-            selectedUnits.Clear();
+            DeselectAllUnits();
         }
+
         Vector3 startWorld = cam.ScreenToWorldPoint(new Vector3(startPos.x, startPos.y, cam.nearClipPlane));
         Vector3 endWorld = cam.ScreenToWorldPoint(new Vector3(endPos.x, endPos.y, cam.nearClipPlane));
 
@@ -100,8 +119,19 @@ public class SelectionManager : MonoBehaviour
         {
             if (col.CompareTag("Unit"))
             {
-                selectedUnits.Add(col.GetComponent<Unit>());
+                Unit unit = col.GetComponent<Unit>();
+                selectedUnits.Add(unit);
+                unit.SetSelected(true); // Hiển thị viền chọn
             }
         }
+    }
+
+    void DeselectAllUnits()
+    {
+        foreach (Unit unit in selectedUnits)
+        {
+            unit.SetSelected(false); // Ẩn viền chọn
+        }
+        selectedUnits.Clear();
     }
 }

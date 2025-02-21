@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\assets\\scripts\\0.1mainscripts\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\0.1mainscripts\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\assets\\scripts\\0.1mainscripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\0.1mainscripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|f:\\program files\\code\\game project\\unity - prehistoric tribe - rts\\prehistoric tribe (rts)\\assets\\scripts\\0.1mainscripts\\selectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\0.1mainscripts\\unitmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\assets\\scripts\\0.2functionsscripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\0.2functionsscripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\assets\\scripts\\0.1mainscripts\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B92428-281E-CCBF-3E67-0FED9FA8AE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\0.1mainscripts\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Unit.cs",
-              "DocumentMoniker": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Scripts\\0.2FunctionsScripts\\Unit.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\0.2FunctionsScripts\\Unit.cs",
-              "ToolTip": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Scripts\\0.2FunctionsScripts\\Unit.cs",
-              "RelativeToolTip": "Assets\\Scripts\\0.2FunctionsScripts\\Unit.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwEQAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Scripts\\0.1MainScripts\\Unit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\0.1MainScripts\\Unit.cs",
+              "ToolTip": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Scripts\\0.1MainScripts\\Unit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\0.1MainScripts\\Unit.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAkwBAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T10:59:45.157Z",
+              "WhenOpened": "2025-02-20T03:50:18.003Z",
               "EditorCaption": ""
             },
             {
@@ -49,7 +49,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\0.1MainScripts\\UnitManager.cs",
               "ToolTip": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Scripts\\0.1MainScripts\\UnitManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\0.1MainScripts\\UnitManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T10:59:30.409Z",
               "EditorCaption": ""
@@ -62,23 +62,22 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\0.1MainScripts\\SelectionManager.cs",
               "ToolTip": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Scripts\\0.1MainScripts\\SelectionManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\0.1MainScripts\\SelectionManager.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAsAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwG8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T10:02:13.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CameraMovement.cs",
               "DocumentMoniker": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Scripts\\0.1MainScripts\\CameraMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\0.1MainScripts\\CameraMovement.cs",
               "ToolTip": "F:\\Program Files\\Code\\Game Project\\Unity - Prehistoric Tribe - RTS\\Prehistoric Tribe (RTS)\\Assets\\Scripts\\0.1MainScripts\\CameraMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\0.1MainScripts\\CameraMovement.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T09:53:23.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T09:53:23.09Z"
             }
           ]
         }
